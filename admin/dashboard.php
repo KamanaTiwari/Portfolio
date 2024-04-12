@@ -30,14 +30,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Updated: Apr 7 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -169,12 +161,63 @@
     <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
       <li>
         <a href="files/create.php">
-          <i class="bi bi-circle"></i><span>Create User</span>
+          <i class="bi bi-circle"></i><span>Create files</span>
         </a>
       </li>
       <li>
         <a href="files/index.php">
-          <i class="bi bi-circle"></i><span>Manage Users</span>
+          <i class="bi bi-circle"></i><span>Manage files</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#skills" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>files</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="skills" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="skills/create.php">
+          <i class="bi bi-circle"></i><span>Create skills</span>
+        </a>
+      </li>
+      <li>
+        <a href="skills/index.php">
+          <i class="bi bi-circle"></i><span>Manage skills</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#services" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>services</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="services" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="services/create.php">
+          <i class="bi bi-circle"></i><span>Create Services</span>
+        </a>
+      </li>
+      <li>
+        <a href="services/index.php">
+          <i class="bi bi-circle"></i><span>Manage services</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#facts" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>facts</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="facts" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="facts/create.php">
+          <i class="bi bi-circle"></i><span>Create facts</span>
+        </a>
+      </li>
+      <li>
+        <a href="files/index.php">
+          <i class="bi bi-circle"></i><span>Manage facts</span>
         </a>
       </li>
     </ul>
@@ -887,7 +930,7 @@
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      Designed by <a href="#">Kamana</a>
     </div>
   </footer><!-- End Footer -->
 

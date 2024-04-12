@@ -4,7 +4,7 @@
       &copy; Copyright <strong><span>Safal</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
-      Designed by <a href="">Safal</a>
+      Designed by <a href="">Kamana</a>
     </div>
   </footer><!-- End Footer -->
 

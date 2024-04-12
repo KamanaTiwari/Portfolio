@@ -63,6 +63,76 @@
     </ul>
   </li><!-- End Forms Nav -->
 
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#facts" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>facts</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="facts" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="../skills/create.php">
+          <i class="bi bi-circle"></i><span>Add facts</span>
+        </a>
+      </li>
+      <li>
+        <a href="../skills/index.php">
+          <i class="bi bi-circle"></i><span>Manage facts</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#services" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>services</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="services" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="../users/create.php">
+          <i class="bi bi-circle"></i><span>Create services</span>
+        </a>
+      </li>
+      <li>
+        <a href="../users/index.php">
+          <i class="bi bi-circle"></i><span>Manage services</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#contact" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>contacts</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="contact" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="../users/create.php">
+          <i class="bi bi-circle"></i><span>Create contact</span>
+        </a>
+      </li>
+      <li>
+        <a href="../users/index.php">
+          <i class="bi bi-circle"></i><span>Manage contact</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+      <i class="bi bi-journal-text"></i><span>Users</span><i class="bi bi-chevron-down ms-auto"></i>
+    </a>
+    <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+      <li>
+        <a href="../users/create.php">
+          <i class="bi bi-circle"></i><span>Create User</span>
+        </a>
+      </li>
+      <li>
+        <a href="../users/index.php">
+          <i class="bi bi-circle"></i><span>Manage Users</span>
+        </a>
+      </li>
+    </ul>
+  </li><!-- End Forms Nav -->
+
   <li class="nav-heading">Pages</li>
 
   <li class="nav-item">

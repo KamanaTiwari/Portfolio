@@ -59,7 +59,7 @@
                           while ($data = $result->fetch_assoc()) {
                           ?>
                           <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                            <img src="../uploads/<?php echo $data['img_link']; ?>" name="img_link" class="w-100" alt="">
+                            <img src="../uploads/<?php echo $data['img_link']; ?>" name="img_link" class="w-200" alt="">
                           </div>
                           <?php
                           }
